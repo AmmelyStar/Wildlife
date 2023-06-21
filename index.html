@@ -5,114 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WILDLIFE</title>
+    <link rel="shortcut icon" href="./img/Logo.svg" type="image/svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="
+        https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+        " rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-       <div>
-        <a href="img/path0.svg"></a>
-        <p>WILDLIFE</p>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Blog</a>
-                </li>
-                <li>
-                    <a href="">Contacts</a>
-                </li>
-                <li>
-                    <a href="img/Vector.svg"></a>
-                </li>
-                <li>
-                    <button>Sign in</button>
-                </li>
-            </ul>
-        </nav>
-       </div>
+    <header class="header">
+        <div class="header-container container">
+            <img class="logo-img" src="./img/Logo.svg" alt="logo" width="70px" height="60px">
+            <a class="logo list" href="index.html">Wildlife</a>
+            
+            <nav class="nav-header">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link list" href="">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link list" href="">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link list" href="">
+                            <img src="./img/Vector.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn-header" type="button"> <span class="text-btn">Sign in</span></button>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>     
+              
     </header>
 
     <main>
-        <section>
-            <div>
-            <h1>Survival</h1>
-            <p>What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</p>
-            <button>Donate</button>
-        </div>
+        <section class="survival-section">
+            <div class="container survival-section-container">
+                <h1 class="survival-title">Survival</h1>
+                <p class="survival-text">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet
+                    by donation.
+                </p>
+                <button class="survival-btn" type="button">Donate</button>
+            </div>        
         </section>
 
         <section>
-      
-            <h2>Latest articles</h2>
-            <p>Breaking news from the wild</p>
+            <div class="container">
+                <h2>Latest articles</h2>
+                <p>Breaking news from the wild</p>
 
-            <div>
                 <ul>
-                    <li> <a href=""> <img src="img/Rectangle.jpg" alt="Squirrel" width="300"
-                        height="360">
-                    </a>
-                    <div>
-                        <h3>Squirrel</h3> <p>Kamikaze squirrels</p>
-                    </div>
+                    <li> <a href=""> <img src="img/Rectangle.jpg" alt="Squirrel" width="300" height="360">
+                        </a>
+                        <div>
+                            <h3>Squirrel</h3>
+                            <p>Kamikaze squirrels</p>
+                        </div>
                     </li>
-    
-                    <li> <a href=""> <img src="img/Rectangle (1).jpg" alt="Deer"  width="300"
-                        height="360">
-                    </a>
-    
-                    <div>
-                        <h3>Deer</h3> <p>Naturalist investigation</p>
-                    </div>
-                </li>
-    
-                    <li> <a href="img/bird.jpg"> <img src="img/bird.jpg" alt="bird"  width="300"
-                        height="360">
-                    </a>
-                    <div>
-                        <h3>Bird</h3> <p>Birds Fight club</p>
-                    </div>
-                </li>
+                
+                    <li> <a href=""> <img src="img/Rectangle (1).jpg" alt="Deer" width="300" height="360">
+                        </a>
+                
+                        <div>
+                            <h3>Deer</h3>
+                            <p>Naturalist investigation</p>
+                        </div>
+                    </li>
+                
+                    <li> <a href="img/bird.jpg"> <img src="img/bird.jpg" alt="bird" width="300" height="360">
+                        </a>
+                        <div>
+                            <h3>Bird</h3>
+                            <p>Birds Fight club</p>
+                        </div>
+                    </li>
                 </ul>
-            </div>
-
+            </div>                
         </section>
 
         
 
         <section>
-            <div>
+            <div class="container">
                 <p>
                     Get notified about new amazing articles
                 </p>
     
     
-                <form action="">
+                <form action="#">
                     <input type="email" placeholder="email">
                 </form>
                 
                 <input type="submit">
-
-            </div>
-           
+            </div>           
         </section>
     </main>
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="container">
             <a href="">
                 <p>WILDLIFE</p>
             </a>
-        </div>
-
-        <div>
+            
+            
+            
             <ul>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
             </ul>
-    
-        </div>
-      
+        </div>   
     </footer>
     
     <script src="index.js"></script>

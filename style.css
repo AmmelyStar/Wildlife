@@ -1,0 +1,172 @@
+
+:root{
+    --orange-main: #CD6326;
+    --font-light:  #F7F7F7;
+}
+
+
+body {
+    
+    font-family: 'Open Sans';
+    
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+img {
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 120px;
+    
+}
+
+/** Header section */
+
+.header{
+    background-color: darkgreen;
+    
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-header{
+    display: block;
+    align-items: center;
+    
+   
+}
+
+.logo{
+    margin-right: 480px;
+   
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.88;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    
+}
+
+.logo-img{
+    padding-right: 15px;
+    
+}
+
+.nav-item{
+   
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 2.61;
+    color: #F7F7F7;
+}
+
+
+.btn-header{
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: transparent;
+    color: var(--font-light, #F7F7F7);
+    text-align: center;
+    font-size: 23px;
+    font-family: Roboto;
+   
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 61px;
+    
+}
+
+
+
+/** Main section */
+/** survival-section */
+
+.survival-section {
+    background: url(./img/header-section-bg.jpg) no-repeat center;
+    box-shadow: -150px 0px 150px 0px #02160B;
+    background-size: cover;
+    margin-top: -72.88px;
+    height: 780px;
+}
+
+.survival-title{
+    color: var(--orange-main, #CD6326);
+    font-size: 48px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 51px;
+    margin-top: 120px;
+}
+
+.survival-text{
+    color: var(--font-light, #F7F7F7);
+    font-size: 18px;
+    line-height: 1.5;
+    width: 274px;
+    margin-bottom: 49px;
+}
+
+.survival-btn{
+    border-radius: 5px;
+    background: var(--orange-main, #CD6326);
+    width: 160px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.survival-section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/** Footer section */
+
+.footer{
+    
+}
