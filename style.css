@@ -282,8 +282,14 @@ margin-bottom: 60px;
 /** Footer section */
 
 .footer{
-    background: url(./img/footer-bg.jpg);   
+    background: url(./img/footer-bg.jpg) no-repeat center;
+    background-size: cover;   
+
     
+}
+
+.logo-footer{
+    margin-right: 120px;
 }
 
 .footer-container{
@@ -297,6 +303,7 @@ margin-bottom: 60px;
     display: flex;
     align-items: center;
     gap: 85px;
+    margin-right: 120px;
 }
 
 .footer-item{
